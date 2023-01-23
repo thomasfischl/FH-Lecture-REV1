@@ -1,0 +1,7 @@
+
+exercises/exercise-01/part-03/webserver-key-pair.ppk
+exercises/exercise-01/part-03/webserver-key-pair
+exercises/exercise-01/part-03/terraform.tfstate
+exercises/exercise-01/part-03/terraform.tfstate.backup
+exercises/exercise-01/part-03/.terraform/*
+exercises/exercise-01/part-03/.terraform.lock.hcl
