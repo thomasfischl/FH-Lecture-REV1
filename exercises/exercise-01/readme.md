@@ -207,9 +207,14 @@ The goal of this exercise part is to allow SSH access to the ec2 instance. SSH w
 
 ### Steps
 * Add Terraform providers local and tls for creating certificates and store the private key to a local file
-* Create a resource to create a new certificate
+https://registry.terraform.io/providers/hashicorp/local/latest/docs
+https://registry.terraform.io/providers/hashicorp/tls/latest/docs
+* Create a resource to create a new RSA certificate (4096 bit)
+https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key
 * Define a resource to store the private key part of the certificate to a local file
+https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 * Create an AWS key pair resource
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair
 * Open the port 22 for SSH access on the security group
 * Add the AWS key pair to the ec2 instance
 * Define a output variable with the full ssh command to access the instance
