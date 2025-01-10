@@ -63,8 +63,8 @@ Password: You have defined the password during the activation process of the acc
 
 Execute commands on the integrated terminal
 ```
-wget https://releases.hashicorp.com/terraform/1.3.7/terraform_1.3.7_linux_amd64.zip
-unzip terraform_1.3.7_linux_amd64.zip
+wget https://releases.hashicorp.com/terraform/1.9.0/terraform_1.9.0_linux_amd64.zip
+unzip terraform_1.9.0_linux_amd64.zip
 sudo mv terraform /usr/local/bin
 terraform --version
 ```
